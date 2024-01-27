@@ -1,6 +1,9 @@
 # Typescript Unit Testing
+Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
+AngularJS-powered HTML5 Markdown editor.
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-- [Src](item-1.py) (Source Code)
+*****
 
 ## Creating the Folder Structure for the Project
 Begin by making a project folder and entering it :
@@ -47,5 +50,37 @@ The inclusion of `-g` indicates a global installation. Confirm the installation 
 ```sh
 npm install -g typescript
 ```
+
+The displayed output should indicate the current version :
+```sh
+tsc -v
+Version 5.3.3
+```
+
+## Adding TypeScript to the Project
+
+Proceed by including TypeScript as a development dependency in the project :
+```sh
+npm install typescript --save-dev
+```
+
+The `package.json` file should now contain TypeScript listed as a dependency :
+```sh
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
+```
+
+## Writing TypeScript Code
+
+
+
+
+
 
 
