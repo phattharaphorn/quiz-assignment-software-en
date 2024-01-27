@@ -21,7 +21,7 @@ Let's establish a source code directory named `src` and a unit tests directory n
 mkdir src
 mkdir test
 ```
-Next, employ npm to initialize a new project. Execute the following command at the root of the 'Typescript-Unit-Testing' folder :
+Next, employ npm to initialize a new project. Execute the following command at the root of the `Typescript-Unit-Testing` folder :
 ```sh
 npm init -y
 ```
