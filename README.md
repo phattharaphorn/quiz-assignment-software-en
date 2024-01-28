@@ -78,8 +78,11 @@ The `package.json` file should now contain TypeScript listed as a dependency :
 ```
 
 ## Writing TypeScript Code
+Utilize your preferred code editor to generate a file named `index.ts` within the `src` folder. 
+```sh
+cd src
 
-
+```
 
 
 
